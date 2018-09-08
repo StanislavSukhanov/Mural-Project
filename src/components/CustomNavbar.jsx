@@ -7,10 +7,25 @@ export default class CustomNavbar extends Component {
     render(){
         return(
             <Navbar default collapseOnSelect>
-                <Navbar.Brand>
-                    <Link to='/'>WallsInBloom</Link>
-                    
-                </Navbar.Brand>
+                <Navbar.Header>
+                    <Navbar.Brand>
+                        <Link to='/'>WallsInBloom</Link>
+                    </Navbar.Brand>
+                    <Navbar.Toggle /> {/* Coollapses down on a smaller devises */}
+                </Navbar.Header>
+                <Navbar.Collapse>
+                    <Nav pullRight>
+                        <NavItem eventKey={1} componentClass={Link} href="/projects" to="/projects" >
+                            Projects
+                        </NavItem>
+                        <NavItem eventKey={2} componentClass={Link} href="/about" to="/about" >
+                            About
+                        </NavItem>
+                        <NavItem eventKey={2} componentClass={Link} href="/pricing" to="/pricing">
+                            Pricing
+                        </NavItem>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
         )
     }

@@ -1,0 +1,17 @@
+.jumbotron {
+    margin-top: 0px;
+    background-image: url('../Assets/banner-home.jpg');
+    max-width: 1536px;
+    
+}
+/*
+.jumbotron:hover {
+    background-image: url('../Assets/banner-wall-hover.jpg')
+}
+*/
+
+
+.banner-button{
+    align: right;
+}
+
