@@ -15,12 +15,12 @@ export default class Home extends Component {
                     <Button className="banner-button">Instagram</Button> 
                 </Jumbotron>
             <Row>
-                <ProjectThumbnail />
-                <ProjectThumbnail />
-                <ProjectThumbnail />
-                <ProjectThumbnail />
-                <ProjectThumbnail />
-                <ProjectThumbnail />
+                <ProjectThumbnail src="http://www.artnak.net/th/drawing-wall-stickers-living-room-bedroom-wall-decor-bedroom-wall-paintings-drawings_1522022816_370x248_5c30576e3e3e6562.jpg"/>
+                <ProjectThumbnail src="https://1.bp.blogspot.com/-ZN3FVnnN9dE/TxLbi0Ktt8I/AAAAAAAAAWU/6IE4gSAhPiE/s1600/6e774__Large-Tree-Wall-Decals-Beds.jpg"/>
+                <ProjectThumbnail src="http://zdrasti.club/wp-content/uploads/2017/09/bedroom-wall-drawings-bedroom-ideas-with-black-wall-decals-wall-mural-decals-are-the-alternative-way-to-make-cool-bedroom-wall-drawings.jpg"/>
+                <ProjectThumbnail src="https://www.guiaparadecorar.com/wp-content/uploads/2018/06/Modelos-de-papel-mural-para-la-habitacion-matrimonial10.jpg"/>
+                <ProjectThumbnail src="http://zdrasti.club/wp-content/uploads/2017/09/bedroom-wall-drawings-wall-painting-tree-with-birds-wall-painting-bedroom-wall-drawings-tumblr.jpg"/>
+                <ProjectThumbnail src="images/project1.jpg"/>
             </Row>
 
             </Grid>
