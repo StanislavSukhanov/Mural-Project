@@ -1,4 +1,12 @@
 .project-info{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+
+/*.project-info{
     border-radius: 5px;
     margin-top: 5px;
    
@@ -10,7 +18,7 @@
 .project-info img{
     margin-top: 1em;
 }
-
+*/
 
 /*
 #project-info{

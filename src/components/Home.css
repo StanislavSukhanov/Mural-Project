@@ -4,12 +4,16 @@
     max-width: 1536px;
     
 }
+
+.jumbotron h2, p{
+    text-align: center;
+}
 /*
 .jumbotron:hover {
     background-image: url('../Assets/banner-wall-hover.jpg')
 }
 */
-
+/* Styling for a row of a board poctures to  that to make it responsive */
 .row {
     display: flex;
     flex-wrap: wrap;
