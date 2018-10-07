@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Jumbotron, Row, Col, Image, Button, Thumbnail} from 'react-bootstrap'
+import {Grid, Jumbotron, Row, Col, Image, Button, Thumbnail, Navbar, Nav, NavItem} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import ProjectThumbnail from './ProjectThumbnail.jsx'
 import './Home.css'
@@ -16,14 +16,9 @@ images.push("https://previews.123rf.com/images/nexusplexus/nexusplexus1308/nexus
 export default class Home extends Component {
     render(){
         return (
+
             <Grid>
-                <Jumbotron>
-                    <h2>Welcome to Walls In Bloom</h2>
-                    <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <Button className="banner-button">Facebook</Button>
-                    <Button className="banner-button">Instagram</Button> 
-                    
-                </Jumbotron>
+                
             <Row>
                 {/* This will be dynamic as soon as we have a Database */}
                 <ProjectThumbnail images={images} src="http://www.artnak.net/th/drawing-wall-stickers-living-room-bedroom-wall-decor-bedroom-wall-paintings-drawings_1522022816_370x248_5c30576e3e3e6562.jpg"/>

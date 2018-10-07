@@ -1,3 +1,8 @@
+@font-face{
+    font-family: brand-header;
+    src: url('../Fonts/ZefaniStencil-Regular.otf')
+}
+
 .jumbotron {
     margin-top: 0px;
     background-image: url('../Assets/banner-home.jpg');
@@ -8,14 +13,61 @@
 .jumbotron h2, p{
     text-align: center;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
 /*
 .jumbotron:hover {
     background-image: url('../Assets/banner-wall-hover.jpg')
 }
 */
 /* Styling for a row of a board poctures to  that to make it responsive */
-.row {
+
+
+.brand-header{
+    font-family: "brand-header";
+    font-size: 20pt;
+    text-align: center;
+    padding: 20px;
+    color:#343a40;
+}
+
+
+
+.btn, .btn-default{
+    background-color: white;
+}
+
+.navbar{
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(70, 69, 69);
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.navbar button{
+    background-color: none;
+    border: none;
+    color: #343a40;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    font-weight: 400;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    font-weight: 500;
+    color:  #6c757d;
+    border-bottom: 1px solid #6c757d;
+    
 }
