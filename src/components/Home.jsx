@@ -9,12 +9,9 @@ const images = []
 images.push("https://i.ytimg.com/vi/NVhQhIVtvwU/hqdefault.jpg")
 images.push("https://img00.deviantart.net/10e8/i/2007/337/8/f/drawing_on_the_wall_by_lvjonok.jpg")
 images.push("https://previews.123rf.com/images/nexusplexus/nexusplexus1308/nexusplexus130800506/21247140-back-view-of-businessman-drawing-sketch-on-wall.jpg")
-images.push("https://ae01.alicdn.com/kf/HTB1l0DSOVXXXXXBXFXXq6xXFXXXY/Funny-Smile-Face-wall-Decal-Mural-Art-Home-Decor-Bathroom-Sticker-Halloween-decoration-Gift-8495.jpg")
+//images.push("https://ae01.alicdn.com/kf/HTB1l0DSOVXXXXXBXFXXq6xXFXXXY/Funny-Smile-Face-wall-Decal-Mural-Art-Home-Decor-Bathroom-Sticker-Halloween-decoration-Gift-8495.jpg")
 
-console.log(images[0])
-images.map(el =>{
-    return console.log(el)
-})
+
 
 export default class Home extends Component {
     render(){

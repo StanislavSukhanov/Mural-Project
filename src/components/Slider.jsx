@@ -42,28 +42,35 @@ export default class Slider extends Component {
 
 
     render(){
-        console.log('i am here :)')
+        console.log('images in a a slider', this.state.images) // dev
+
         return (
             
-            <div className="slider">
+            <div className="slider" style={{
+                maxHeight: '600px',
+                margin: '0 auto',
+                
+                display: 'flex',
+            }}>
                 <div className="slider-wrapper"
                     style={{
+                      display: "flex",  
+                      position: 'absolute', // to offset this element relatively to slider 
                       transform: `translateX(${this.state.translateValue}px)`, /** sets the step image is being transformed  */
                       transition: 'transform ease-out 0.45s' /* how images are being transited */
                     }}>
                 {
-                    this.state.images.map((image, i) => {
-                        <Slide key={i} image={image} />
-                        console.log('this is', image) // dev 
-                    })
+                    this.state.images.map((image, i) => <Slide key={i} image={image} />)
                 }
                 </div>
+                {/*
                 <LeftArrow 
                     goToPrevSlide={this.goToPrevSlide}
                 />
                 <RigthArrow 
                     goToNextSlide={this.goToNextSlide}
                 />
+                */}
             </div>
         )
     }
